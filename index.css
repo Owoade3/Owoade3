@@ -1,0 +1,133 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+  font-family:'Bai Jamjuree';
+  font-size: 18px;
+  font-weight:400,600 ;
+}
+
+.logo{
+margin-right:auto;
+margin-left: auto;
+display: block;
+margin-bottom:30px ;
+}
+.txt{
+  text-align: center;
+  margin-top: 10px;
+}
+.btn{
+
+  display: flex;
+  justify-content: center;
+  margin-top:30px ;
+  margin-bottom: 50px;
+height: 45px;
+}
+
+
+.btn a{ 
+  text-decoration: none;
+  color:white;
+
+  
+}
+.btn .ios{
+  background-color:hsl(171, 66%, 44%);
+}
+.btn .mac{
+ background-color:hsl(233, 100%, 69%);
+}
+.btn p{
+  padding: 5px 20px;
+  margin: 0px 10px;
+  border-radius: 50px;
+}
+
+.txt p{
+  margin-top: 20px;
+}
+.txt .gap{
+  margin-top: 80px;
+}
+.computer{
+  margin-top: 20px;
+}
+.section2{
+  overflow: hidden;
+  display:flex;
+  margin-top:60px;
+}
+.txt1 {
+  margin: 30px;
+}
+.txt2{
+  margin-top: 90px;
+  text-align: center;
+}
+.txt2 p{
+  margin: 20px;
+}
+.device{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top:50px ;
+  width: 600px;
+}
+@media screen only and(max-width="375px"){
+.section4{
+  display: block}
+icon{
+  display: block;
+  justify-content: space-around;}
+}
+.section4{
+  display: flex;
+}
+.section4 {
+  margin-left: 60px;
+  margin-right:60px;
+  text-align: justify;
+  padding:0px 0px;
+ 
+}
+
+.section4  div {
+  display:inline-block;
+  margin: 0px 30px;
+}
+
+}
+.section4  h2 {
+  text-align:center;
+  margin: 0px 50px;
+  padding: 0px 500px;
+  color: red;
+}
+.section4 img{
+margin: 50px 120px ;
+padding
+}
+.section4 p{
+  font-size: 18px;
+}
+.icon{
+  display: flex;
+  justify-content: space-around;
+}
+.icon img{
+  margin-top: 200px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 100px;
+}
+footer{
+  width: 120%;
+  display:flex;
+  justify-content:space-around;
+  background-color:
+  rgba(60,60,60,0.1);
+}
